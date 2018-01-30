@@ -9,6 +9,10 @@ $ npm install node-opcua --save # add the node-opcua
 $ npm i --save csvtojson        # read csv file, convert to json
 ```
 
+```
+place the TestFile.csv into the same folder
+```
+
 > In this project I decided to *inverse* roles of the server and client. My server *reads* data from file (simulating a sensor).
 Then my client *monitors* the item. In this case, we can establish from our client multiple connections to servers and monitor all variables. My server will publish any data change on the monitored variables back to the client every second. 
 
