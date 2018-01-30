@@ -1,5 +1,4 @@
 # Myserver
-Assignment
 
 Let's install node opcua
 
